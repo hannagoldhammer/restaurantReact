@@ -1,0 +1,49 @@
+.btn-style {
+	background: rgb(165, 248, 227);
+	color: #ffffff;
+	text-shadow: 1px 0.5px rgb(138, 137, 137);
+
+	width: 80px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 3px;
+	outline: none;
+
+	cursor: pointer;
+	border: 1px solid #1a202c;
+	padding: 8px;
+
+	transition: all 0.1s ease-in;
+}
+
+.unclicked {
+	width: 80px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	display: inline-block;
+	text-align: center;
+	background: rgb(68, 209, 174);
+	border-radius: 3px;
+	color: #ffffff;
+	outline: none;
+
+	cursor: pointer;
+	border: 1px solid #1a202c;
+	padding: 8px;
+
+	transition: all 0.1s ease-in;
+
+	&:hover {
+		background: #79b4a2;
+		color: var(--text-color);
+	}
+}
+
+.react-calendar {
+	color: #222;
+	margin-top: 1.6rem;
+}

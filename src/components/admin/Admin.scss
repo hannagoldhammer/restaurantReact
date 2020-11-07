@@ -1,0 +1,29 @@
+:root {
+	--text-color: #f6f4e6;
+}
+
+body {
+	justify-content: center;
+	text-align: center;
+
+	.adminHeading {
+		font-size: 1.3rem;
+		padding: 0.5rem;
+	}
+
+	.header-text {
+		color: var(--text-color);
+	}
+	.adminLink{
+		color: #f6f4e6;
+		text-decoration: none;
+	}
+}
+
+.form-container {
+	color: #f6f4e6;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: auto;
+	width: 50%;
+}

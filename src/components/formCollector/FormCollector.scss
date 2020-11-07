@@ -1,0 +1,32 @@
+button,
+span {
+	margin: 10px;
+}
+
+.edit-button {
+	border: none;
+	background-color: transparent;
+}
+
+.form-input {
+	overflow: visible;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+	border: 0px;
+	padding: 8px;
+	padding-left: 12px;
+	margin: 5px 5px 12px 5px;
+	background-color: #f8f8f8;
+
+	&:hover {
+		box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
+	}
+
+	&:focus {
+		box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
+	}
+}
+
+.fas {
+	color: #f6f6f6;
+	cursor: pointer;
+}

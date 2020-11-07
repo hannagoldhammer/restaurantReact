@@ -1,0 +1,210 @@
+/* @import "mixins.scss";
+ */
+:root {
+	--text-color: #f6f4e6;
+}
+
+body {
+	background-image: url('../src/assets/restaurang.jpg');
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position-x: center;
+	background-position-y: center;
+	font-family: 'Open Sans', sans-serif;
+	color: var(--text-color);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.homeComponent {
+	border: 1px solid #1a202c;
+	width: 50%;
+	margin: 0 auto;
+	background: black;
+	padding: 30px;
+	margin-top: 40px;
+}
+
+.dateComponent {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.dateComponent > span {
+	text-align: center;
+	flex-direction: row;
+	margin: 3px;
+}
+
+.timeComponent {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.timeComponent > span {
+	text-align: center;
+	flex-direction: row;
+	margin: 3px;
+}
+
+.Btn-search {
+	width: 200px;
+	height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	display: inline-block;
+	line-height: 10px;
+	text-align: center;
+	border-radius: 3px;
+	background: rgb(68, 209, 174);
+	color: #ffffff;
+	margin-bottom: 1.6rem;
+	outline: none;
+
+	cursor: pointer;
+	border: 1px solid #1a202c;
+	padding: 8px;
+
+	transition: all 0.1s ease-in;
+}
+
+.Btn-search-disabled {
+	width: 200px;
+	height: 35px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	outline: none;
+	display: inline-block;
+	line-height: 10px;
+	text-align: center;
+	border-radius: 3px;
+	background: #649284;
+	color: #ffffff;
+	color: rgb(75, 75, 75);
+	opacity: 0.7;
+	margin-bottom: 1.6rem;
+
+	cursor: pointer;
+	border: 1px solid #1a202c;
+	padding: 8px;
+
+	transition: all 0.1s ease-in;
+}
+
+.bookingConfirm {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+.form-div {
+	margin: 0 auto;
+	.input-wrapping-div {
+		display: flex;
+		justify-content: center;
+		.input-error-message {
+			width: 200px;
+			margin-top: 2px;
+			margin-bottom: 25px;
+			font-size: 13px;
+		}
+
+		.GDPR-style {
+			color: red;
+			margin: 10px;
+			font-weight: bold;
+		}
+
+		.GDPR-checkbox {
+			padding-top: 8px;
+			justify-content: baseline;
+		}
+	}
+}
+
+textarea {
+	margin-top: 25px;
+	width: 260px;
+	height: 80px;
+}
+
+.header {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+	width: 65%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+input,
+textarea {
+	font-family: 'Open Sans', sans-serif;
+	overflow: visible;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+	border: 0px;
+	padding: 8px;
+	padding-left: 12px;
+	margin: 5px 5px 12px 5px;
+	background-color: #f8f8f8;
+
+	&:hover {
+		box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
+	}
+
+	&:focus {
+		box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
+	}
+}
+.guestHome {
+	height: 150px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.btn-post {
+	width: 80px;
+	margin: 0 auto;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 3px;
+	margin: 3px;
+	background: rgb(68, 209, 174);
+	color: #ffffff;
+	margin-bottom: 20px;
+
+	cursor: pointer;
+	border: 1px solid #1a202c;
+	padding: 8px;
+
+	transition: all 0.1s ease-in;
+
+	&:hover {
+		background: #7fb4a4;
+		color: #ffffff;
+	}
+}
+
+.error-message {
+	color: red;
+}
+
+::-webkit-resizer {
+	display: none;
+}
